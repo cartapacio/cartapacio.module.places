@@ -1,0 +1,59 @@
+#place{
+  width: 800px;
+  height: 500px;
+  svg{
+    width: 800px;
+  height: 500px;
+  }
+}
+
+.place{
+  .new{
+    cursor: pointer;
+   // color: @projects;
+    margin-top: 30px;
+    font-size: 32px;
+    padding-left: 33px;
+    color: rgb(132, 142, 163);
+  }
+
+  //project list
+  #item-list{
+    padding-left: 0;
+    li{
+      list-style: none;
+      margin-bottom: 20px;
+    }
+    a{
+      color: #449471;
+      text-decoration: none;
+
+      &:hover{
+        color: #C4C4C4;
+        text-decoration: none;
+      }
+    }
+    .item-title{
+      width: 92%;
+      display: -webkit-inline-box;
+    }
+    .delete{
+      color: #b6222c;
+      font-size: 14px;
+      margin-left: 10px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+
+    .move{
+      color: #61b66e;
+      font-size: 14px;
+      margin-left: 10px;
+      &:hover{
+        cursor: move;
+      }
+    }
+  }
+
+}
